@@ -48,6 +48,8 @@ Every future domain page should eventually answer:
 - Why does it matter?
 - When should I learn it?
 - What are the prerequisites?
+- What should I understand before this?
+- What becomes possible after understanding this?
 - What are the core concepts?
 - How did the domain evolve historically?
 - What is the current state?
@@ -63,6 +65,16 @@ Every future domain page should eventually answer:
 - Which domains are related?
 
 These requirements define the target shape of a mature page. A new page does not need to be complete, but it must be useful.
+
+Use the same lightweight relationship vocabulary as the resource indexes:
+
+- Read after
+- Leads to
+- Related
+- Implemented by
+- Maintained by
+
+Domain pages should make relationships visible without becoming schemas or databases.
 
 ## When To Add New Pages
 

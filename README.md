@@ -90,7 +90,16 @@ The initial repository is intentionally small:
 - [resources/](resources/) defines how secondary resource indexes should work.
 - [ecosystem/](ecosystem/) defines how people and institutions should be mapped.
 
-No domains, resource subdirectories, or ecosystem subdirectories are created yet. Content earns structure.
+The first curated indexes now exist where they have enough signal to be useful:
+
+- [resources/books/](resources/books/) for durable books.
+- [resources/papers/](resources/papers/) for paper selection philosophy and starter anchors.
+- [resources/software/](resources/software/) for foundational software infrastructure.
+- [resources/videos/](resources/videos/) for high-value long-form learning material.
+- [ecosystem/researchers/](ecosystem/researchers/) for researchers who shape the field.
+- [ecosystem/labs/](ecosystem/labs/) for institutions with durable influence.
+
+No domain pages are created yet. Content still earns structure.
 
 ## Why Domains Come First
 
@@ -114,7 +123,7 @@ The repository starts small to avoid premature structure.
 
 Empty folders and placeholder taxonomies create the illusion of progress while increasing maintenance cost. Materials Atlas should grow only when real curated content proves that new structure is necessary.
 
-Version 0.1 therefore contains only the constitution, the learning progression, and the rules for future structure.
+Version 0.1 established the constitution, the learning progression, and the rules for future structure. New structure should continue to appear only when curated content proves it is needed.
 
 ## Contribution Philosophy
 

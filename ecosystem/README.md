@@ -12,7 +12,12 @@ The ecosystem should explain relationships, influence, and context.
 
 ## Scope
 
-Future ecosystem content may include researchers, research groups, laboratories, universities, national labs, companies, consortia, standards bodies, open source communities, and recurring venues.
+The first justified ecosystem indexes are:
+
+- [researchers/](researchers/) for people whose work shapes the field.
+- [labs/](labs/) for institutions with durable influence.
+
+Future ecosystem content may include research groups, universities, national labs, companies, consortia, standards bodies, open source communities, and recurring venues.
 
 These should be included only when they help explain the field.
 
@@ -40,6 +45,6 @@ This directory should not contain:
 
 ## When To Add New Pages
 
-Do not create deeper structure until real curated ecosystem content exists.
+Do not create additional deeper structure until real curated ecosystem content exists.
 
-If separate pages for researchers, laboratories, companies, or communities become necessary, they should be added only after the content proves that the structure improves retrieval.
+If separate pages for companies, communities, venues, or other ecosystem actors become necessary, they should be added only after the content proves that the structure improves retrieval.

@@ -4,11 +4,30 @@ Resources are secondary indexes.
 
 They are not the primary navigation of Materials Atlas. Meaning lives first in domains.
 
+## Relationship Vocabulary
+
+Relationships should remain human-readable. Use a small vocabulary:
+
+- Read after: prerequisite concepts or resources.
+- Leads to: the next useful concept, method, or practice.
+- Related: nearby ideas that clarify context.
+- Implemented by: software or infrastructure that embodies a method.
+- Maintained by: people, groups, or institutions that shape an ecosystem.
+
+Do not turn this into a metadata schema. The goal is to help readers move through ideas.
+
 ## Purpose
 
 The purpose of `resources/` is to index important materials across the atlas once there is enough curated content to justify the index.
 
-Resources may eventually include papers, books, software, datasets, courses, videos, conferences, benchmarks, standards, or other durable references.
+The first justified indexes are:
+
+- [books/](books/) for durable books.
+- [papers/](papers/) for paper selection philosophy and starter anchors.
+- [software/](software/) for foundational software infrastructure.
+- [videos/](videos/) for high-value long-form learning material.
+
+Other resource types may be added later only when they improve retrieval.
 
 ## Scope
 
@@ -38,6 +57,6 @@ For that reason, resource indexes should point back to domain pages whenever pos
 
 ## When To Add New Pages
 
-Do not create resource-type subdirectories until enough curated resources exist to justify them.
+Do not create additional resource-type subdirectories until enough curated resources exist to justify them.
 
-For example, do not create separate indexes for papers, books, software, datasets, courses, videos, or conferences until those indexes would contain real curated entries and improve retrieval.
+For example, do not create separate indexes for datasets, courses, conferences, benchmarks, or standards until those indexes would contain real curated entries and improve retrieval.
