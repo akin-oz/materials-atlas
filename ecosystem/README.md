@@ -23,14 +23,7 @@ These should be included only when they help explain the field.
 
 ## Inclusion Criteria
 
-An ecosystem entry may be added when:
-
-- the person or institution has a clear connection to one or more domains
-- the entry explains influence rather than merely listing facts
-- the relevance can be supported by primary sources, publications, software, datasets, or institutional output
-- the entry helps readers understand the structure of the field
-
-Do not add entries only because a person or organization exists.
+Ecosystem inclusion is governed by [../EDITORIAL.md](../EDITORIAL.md). A person or institution belongs here only when it helps readers understand influence, infrastructure, domains, or research direction.
 
 ## What Does Not Belong Here
 
@@ -45,6 +38,4 @@ This directory should not contain:
 
 ## When To Add New Pages
 
-Do not create additional deeper structure until real curated ecosystem content exists.
-
-If separate pages for companies, communities, venues, or other ecosystem actors become necessary, they should be added only after the content proves that the structure improves retrieval.
+Do not create additional deeper structure unless it has exceptional editorial justification and improves retrieval.

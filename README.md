@@ -51,40 +51,19 @@ The primary audience is a software engineer with a Metallurgical and Materials E
 
 The secondary audience is anyone who wants a research-grade overview of the field without spending years reconstructing the map from scattered papers, tools, courses, talks, and institutional knowledge.
 
-## Repository Philosophy
-
-Content is the product.
-
-Markdown is the source of truth.
-
-Git is the source of truth.
-
-Curation is more valuable than completeness.
-
-Primary sources are preferred over summaries.
-
-Questions are more useful than isolated facts.
-
-Understanding is more important than collection.
-
-Delete before adding.
-
-The repository should still make sense in 2040.
-
 ## Design Principles
 
 Materials Atlas is organized for retrieval, not storage.
 
 People do not usually begin with a resource type. They begin with a domain, a problem, or a learning goal. A reader is more likely to ask "How do I understand density functional theory?" than "Which folder contains books?"
 
-For that reason, domains are the primary organizing principle. Resources are secondary indexes.
-
-Every durable page should have a clear purpose, a defined scope, and explicit inclusion criteria. Pages should exist because they answer real questions, not because a taxonomy has available space.
+For that reason, domains are the primary organizing principle. Resources are secondary indexes. The editorial rules for future pages live in [EDITORIAL.md](EDITORIAL.md).
 
 ## Navigation
 
 The initial repository is intentionally small:
 
+- [EDITORIAL.md](EDITORIAL.md) defines the editorial standard for all future pages.
 - [ROADMAP.md](ROADMAP.md) defines the high-level learning progression.
 - [domains/](domains/) defines how future domain pages will organize knowledge.
 - [resources/](resources/) defines how secondary resource indexes should work.
@@ -100,6 +79,12 @@ The first curated indexes now exist where they have enough signal to be useful:
 - [ecosystem/labs/](ecosystem/labs/) for institutions with durable influence.
 
 No domain pages are created yet. Content still earns structure.
+
+## Architecture Freeze
+
+The repository architecture is intentionally stable.
+
+Future work should primarily add or improve curated content inside the existing structure. Structural changes should be rare and require exceptional justification: they should make the atlas easier to navigate and maintain, not merely create a new place to put things.
 
 ## Why Domains Come First
 
@@ -117,26 +102,8 @@ A paper matters because of what it changed. A software package matters because o
 
 The `resources/` directory exists for secondary indexes only. It should help readers find included resources across the atlas, but it should not become the main navigation model.
 
-## Why This Starts Small
-
-The repository starts small to avoid premature structure.
-
-Empty folders and placeholder taxonomies create the illusion of progress while increasing maintenance cost. Materials Atlas should grow only when real curated content proves that new structure is necessary.
-
-Version 0.1 established the constitution, the learning progression, and the rules for future structure. New structure should continue to appear only when curated content proves it is needed.
-
 ## Contribution Philosophy
 
 Contributions should improve understanding.
 
-A useful contribution may add a resource, remove a weak resource, clarify a domain boundary, improve a learning sequence, explain why a tool matters, or identify a missing primary source.
-
-Before adding content, ask:
-
-- What uncertainty does this reduce?
-- Which domain or learning goal does this support?
-- Is this a primary source or a durable secondary source?
-- Why is this worth including instead of omitting?
-- Will this still be meaningful several years from now?
-
-If the answer is unclear, do not add it yet.
+A useful contribution may add a resource, remove a weak resource, clarify a domain boundary, improve a learning sequence, explain why a tool matters, or identify a missing primary source. Use [EDITORIAL.md](EDITORIAL.md) as the authority for contribution quality.

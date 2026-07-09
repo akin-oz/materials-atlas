@@ -4,21 +4,11 @@ Resources are secondary indexes.
 
 They are not the primary navigation of Materials Atlas. Meaning lives first in domains.
 
-## Relationship Vocabulary
-
-Relationships should remain human-readable. Use a small vocabulary:
-
-- Read after: prerequisite concepts or resources.
-- Leads to: the next useful concept, method, or practice.
-- Related: nearby ideas that clarify context.
-- Implemented by: software or infrastructure that embodies a method.
-- Maintained by: people, groups, or institutions that shape an ecosystem.
-
-Do not turn this into a metadata schema. The goal is to help readers move through ideas.
-
 ## Purpose
 
 The purpose of `resources/` is to index important materials across the atlas once there is enough curated content to justify the index.
+
+Use [../EDITORIAL.md](../EDITORIAL.md) for resource justification and relationship vocabulary.
 
 The first justified indexes are:
 
@@ -37,15 +27,7 @@ It should not become a dumping ground for links. A resource belongs here only wh
 
 ## Inclusion Criteria
 
-A resource may be indexed when:
-
-- it is cited or used by a domain page
-- it has clear relevance to Computational Materials Science or an adjacent field
-- its provenance is clear
-- its importance can be explained
-- it is more useful included than omitted
-
-Preference should be given to primary sources, canonical works, trusted datasets, widely used software, and durable educational material.
+Resource inclusion is governed by [../EDITORIAL.md](../EDITORIAL.md). A resource belongs here only when it supports understanding of one or more domains and its importance can be explained clearly.
 
 ## Relationship To Domains
 

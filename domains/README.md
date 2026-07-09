@@ -28,53 +28,11 @@ Domain pages should connect concepts, papers, software, datasets, people, instit
 
 They should not be exhaustive encyclopedic articles.
 
-## Inclusion Criteria
+## Canonical Template
 
-A new domain page may be added when:
+Every domain page must start from [TEMPLATE.md](TEMPLATE.md).
 
-- the area is durable enough to matter beyond a short-term trend
-- the page can answer real learning or research questions
-- there are enough primary sources to support curation
-- the domain has clear relationships to other areas
-- the page can explain what to learn, why it matters, and what remains unresolved
-
-Do not add a domain page only because the domain name exists.
-
-## Future Domain Page Requirements
-
-Every future domain page should eventually answer:
-
-- What is this domain?
-- Why does it matter?
-- When should I learn it?
-- What are the prerequisites?
-- What should I understand before this?
-- What becomes possible after understanding this?
-- What are the core concepts?
-- How did the domain evolve historically?
-- What is the current state?
-- Which papers are canonical?
-- Which books are essential?
-- Which software is essential?
-- Which datasets are essential?
-- Who are the leading researchers?
-- Which laboratories are leading the field?
-- Where is there industrial adoption?
-- What problems remain open?
-- What is the suggested learning order?
-- Which domains are related?
-
-These requirements define the target shape of a mature page. A new page does not need to be complete, but it must be useful.
-
-Use the same lightweight relationship vocabulary as the resource indexes:
-
-- Read after
-- Leads to
-- Related
-- Implemented by
-- Maintained by
-
-Domain pages should make relationships visible without becoming schemas or databases.
+The template defines the canonical structure for future domains. It keeps domain pages comparable without turning them into a schema or database.
 
 ## When To Add New Pages
 
