@@ -1,4 +1,4 @@
-# Module 10 - Phase-Field Methods
+# Module 10 — Phase-Field Methods
 
 > Learn how microstructure evolution is modeled computationally.
 
@@ -76,10 +76,10 @@ After completing this module, you should be able to:
 
 # Prerequisites
 
-- Module 03 - Thermodynamics
-- Module 04 - Statistical Mechanics
-- Module 08 - Molecular Dynamics
-- Module 09 - CALPHAD
+- Module 03 — Thermodynamics
+- Module 04 — Statistical Mechanics
+- Module 08 — Molecular Dynamics
+- Module 09 — CALPHAD
 
 ---
 
@@ -297,8 +297,8 @@ without relying on equations.
 
 ## Supports Roadmap
 
-- Module 11 - Materials Informatics
-- Module 15 - Capstone Research Project
+- Module 11 — Materials Informatics
+- Module 15 — Capstone Research Project
 
 ## Related Domains
 
@@ -314,7 +314,7 @@ without relying on equations.
 
 4 weeks
 
-10-15 hours per week.
+10–15 hours per week.
 
 Advance based on mastery rather than time.
 
@@ -322,5 +322,4 @@ Advance based on mastery rather than time.
 
 # Continue With
 
-**Module 11 - Materials Informatics**
-
+**Module 11 — Materials Informatics**

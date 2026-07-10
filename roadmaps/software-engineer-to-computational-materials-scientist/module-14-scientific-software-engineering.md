@@ -1,4 +1,4 @@
-# Module 14 - Scientific Software Engineering
+# Module 14 — Scientific Software Engineering
 
 > Build scientific software that is reliable, understandable, and useful to researchers.
 
@@ -66,7 +66,7 @@ After completing this module, you should be able to:
 
 # Prerequisites
 
-- Module 13 - Research Infrastructure
+- Module 13 — Research Infrastructure
 
 ---
 
@@ -108,7 +108,7 @@ Focus on design choices, not line-by-line comprehension.
 
 # Weekly Plan
 
-## Week 1 - Reading Scientific Code
+## Week 1 — Reading Scientific Code
 
 Study one mature scientific Python library.
 
@@ -260,7 +260,7 @@ Proceed only if you can:
 
 ## Supports Roadmap
 
-- Module 15 - Capstone Research Project
+- Module 15 — Capstone Research Project
 
 ## Related Domains
 
@@ -275,7 +275,7 @@ Proceed only if you can:
 
 4 weeks
 
-8-12 hours per week.
+8–12 hours per week.
 
 Advance based on mastery.
 
@@ -283,5 +283,4 @@ Advance based on mastery.
 
 # Continue With
 
-**Module 15 - Capstone Research Project**
-
+**Module 15 — Capstone Research Project**

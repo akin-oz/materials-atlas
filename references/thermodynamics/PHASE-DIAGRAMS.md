@@ -304,7 +304,6 @@ Real processing may not reach equilibrium.
 
 # Related Reference Pages
 
-- THERMODYNAMIC-QUANTITIES.md
-- THERMODYNAMIC-DIAGRAMS.md
-- GLOSSARY.md
-
+- [Thermodynamic Quantities](THERMODYNAMIC-QUANTITIES.md)
+- [Thermodynamics Diagrams](../diagrams/thermodynamics.md)
+- [Thermodynamics & Statistical Mechanics Glossary](GLOSSARY.md)

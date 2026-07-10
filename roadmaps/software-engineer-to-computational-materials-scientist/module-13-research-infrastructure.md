@@ -1,4 +1,4 @@
-# Module 13 - Research Infrastructure
+# Module 13 — Research Infrastructure
 
 > Learn how reproducible computational materials research is organized, executed, and preserved.
 
@@ -65,9 +65,9 @@ After completing this module, you should be able to:
 
 # Prerequisites
 
-- Module 02 - Scientific Python
-- Module 11 - Materials Informatics
-- Module 12 - Machine Learning for Materials
+- Module 02 — Scientific Computing with Python
+- Module 11 — Materials Informatics
+- Module 12 — Machine Learning for Materials
 
 ---
 
@@ -112,7 +112,7 @@ Use as awareness:
 
 # Weekly Plan
 
-## Week 1 - Reproducible Structure
+## Week 1 — Reproducible Structure
 
 Study:
 
@@ -276,8 +276,8 @@ Proceed only if you can:
 
 ## Supports Roadmap
 
-- Module 14 - Scientific Software Engineering
-- Module 15 - Capstone Research Project
+- Module 14 — Scientific Software Engineering
+- Module 15 — Capstone Research Project
 
 ## Related Domains
 
@@ -292,7 +292,7 @@ Proceed only if you can:
 
 3 weeks
 
-8-10 hours per week.
+8–10 hours per week.
 
 Advance based on mastery.
 
@@ -300,5 +300,4 @@ Advance based on mastery.
 
 # Continue With
 
-**Module 14 - Scientific Software Engineering**
-
+**Module 14 — Scientific Software Engineering**

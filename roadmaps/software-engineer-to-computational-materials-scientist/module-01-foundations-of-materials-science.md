@@ -600,4 +600,4 @@ Advance based on mastery, not time.
 
 # Continue With
 
-**Module 02 — Scientific Python for Computational Materials**
+**Module 02 — Scientific Computing with Python**

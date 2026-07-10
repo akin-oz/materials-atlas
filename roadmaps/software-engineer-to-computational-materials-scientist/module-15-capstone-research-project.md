@@ -1,4 +1,4 @@
-# Module 15 - Capstone Research Project
+# Module 15 — Capstone Research Project
 
 > Integrate the curriculum into one end-to-end computational materials project.
 
@@ -53,7 +53,7 @@ flowchart LR
 
 Choose one.
 
-## Option 1 - Reproduce a Paper
+## Option 1 — Reproduce a Paper
 
 Reproduce a limited result from a computational materials paper.
 
@@ -65,7 +65,7 @@ Good for:
 
 ---
 
-## Option 2 - Materials Informatics Project
+## Option 2 — Materials Informatics Project
 
 Build a dataset, train a model, and evaluate it honestly.
 
@@ -77,7 +77,7 @@ Good for:
 
 ---
 
-## Option 3 - DFT Data Analysis
+## Option 3 — DFT Data Analysis
 
 Use existing DFT data to analyze stability, structure, or properties.
 
@@ -89,7 +89,7 @@ Good for:
 
 ---
 
-## Option 4 - Scientific Software Contribution
+## Option 4 — Scientific Software Contribution
 
 Contribute a small improvement to an open-source scientific Python project.
 
@@ -318,7 +318,7 @@ Answer:
 
 # Estimated Duration
 
-6-10 weeks
+6–10 weeks
 
 Advance based on project quality, not time.
 
@@ -327,4 +327,3 @@ Advance based on project quality, not time.
 # Continue With
 
 Build a second project or begin contributing to the scientific Python ecosystem.
-

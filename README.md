@@ -61,10 +61,21 @@ For that reason, domains are the primary organizing principle. Resources are sec
 
 ## Navigation
 
-The initial repository is intentionally small:
+## Start Here
+
+New readers should begin with:
+
+1. [ROADMAP.md](ROADMAP.md) for the field-level learning progression.
+2. [Software Engineer → Computational Materials Scientist](roadmaps/software-engineer-to-computational-materials-scientist/README.md) for the detailed, competency-based curriculum.
+3. [STUDY-METHOD.md](roadmaps/software-engineer-to-computational-materials-scientist/STUDY-METHOD.md) for the learning workflow used by that curriculum.
+4. [references/](references/README.md) for canonical concepts, diagrams, and reference material.
+
+## Repository Map
 
 - [EDITORIAL.md](EDITORIAL.md) defines the editorial standard for all future pages.
 - [ROADMAP.md](ROADMAP.md) defines the high-level learning progression.
+- [roadmaps/software-engineer-to-computational-materials-scientist/](roadmaps/software-engineer-to-computational-materials-scientist/) contains the detailed curriculum and study method.
+- [references/](references/) contains canonical reference pages and reusable diagram collections.
 - [domains/](domains/) defines how future domain pages will organize knowledge.
 - [resources/](resources/) defines how secondary resource indexes should work.
 - [ecosystem/](ecosystem/) defines how people and institutions should be mapped.
@@ -125,3 +136,7 @@ If Materials Atlas helps your research, teaching, learning, or software work, pl
 GitHub-compatible citation metadata is provided in [CITATION.cff](CITATION.cff). A human-readable citation guide is available in [CITING.md](CITING.md).
 
 A Zenodo DOI will be added after the first stable public release.
+
+## Release
+
+The first public release is documented in [CHANGELOG.md](CHANGELOG.md) and [RELEASE_NOTES_v0.1.md](RELEASE_NOTES_v0.1.md).

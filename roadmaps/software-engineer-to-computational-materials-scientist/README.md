@@ -89,22 +89,22 @@ One reproduced paper is better than reading twenty abstracts.
 
 | Module | Title | Primary Goal |
 |---------|-------|--------------|
-| 00 | Mathematical & Physical Recovery | Recover essential scientific foundations |
-| 01 | Foundations of Materials Science | Rebuild materials intuition |
-| 02 | Scientific Python | Develop scientific computing skills |
-| 03 | Thermodynamics | Understand equilibrium and energy |
-| 04 | Statistical Mechanics | Connect thermodynamics to atomistic simulation |
-| 05 | Crystallography & Crystal Structures | Understand atomic arrangement in solids |
-| 06 | Electronic Structure | Build intuition for bonding and electronic properties |
-| 07 | Density Functional Theory | Learn first-principles materials simulation |
-| 08 | Molecular Dynamics | Simulate atomic motion |
-| 09 | CALPHAD | Model phase equilibria computationally |
-| 10 | Phase-Field Methods | Model microstructure evolution |
-| 11 | Materials Informatics | Connect materials science with data science |
-| 12 | Machine Learning for Materials | Modern AI methods for materials research |
-| 13 | Research Infrastructure | Reproducible computational research |
-| 14 | Scientific Software Engineering | Build production-quality scientific software |
-| 15 | Capstone Research Project | Integrate everything into an end-to-end project |
+| 00 | [Mathematical & Physical Recovery](module-00-mathematical-and-physical-recovery.md) | Recover essential scientific foundations |
+| 01 | [Foundations of Materials Science](module-01-foundations-of-materials-science.md) | Rebuild materials intuition |
+| 02 | [Scientific Computing with Python](module-02-scientific-computing-with-python.md) | Develop scientific computing skills |
+| 03 | [Thermodynamics](module-03-thermodynamics-for-computational-materials.md) | Understand equilibrium and energy |
+| 04 | [Statistical Mechanics](module-04-statistical-mechanics-for-computational-materials.md) | Connect thermodynamics to atomistic simulation |
+| 05 | [Crystallography & Crystal Structures](module-05-crystallography-and-crystal-structures.md) | Understand atomic arrangement in solids |
+| 06 | [Electronic Structure](module-06-electronic-structure.md) | Build intuition for bonding and electronic properties |
+| 07 | [Density Functional Theory](module-07-density-functional-theory.md) | Learn first-principles materials simulation |
+| 08 | [Molecular Dynamics](module-08-molecular-dynamics.md) | Simulate atomic motion |
+| 09 | [CALPHAD](module-09-calphad.md) | Model phase equilibria computationally |
+| 10 | [Phase-Field Methods](module-10-phase-field-methods.md) | Model microstructure evolution |
+| 11 | [Materials Informatics](module-11-materials-informatics.md) | Connect materials science with data science |
+| 12 | [Machine Learning for Materials](module-12-machine-learning-for-materials.md) | Modern AI methods for materials research |
+| 13 | [Research Infrastructure](module-13-research-infrastructure.md) | Reproducible computational research |
+| 14 | [Scientific Software Engineering](module-14-scientific-software-engineering.md) | Build production-quality scientific software |
+| 15 | [Capstone Research Project](module-15-capstone-research-project.md) | Integrate everything into an end-to-end project |
 
 ---
 
