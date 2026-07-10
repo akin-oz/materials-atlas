@@ -1,0 +1,10 @@
+pre-commit:
+  commands:
+    documentation:
+      glob: "*.md"
+      run: ruby scripts/git/check_docs.rb {staged_files}
+
+commit-msg:
+  commands:
+    convention:
+      run: ruby scripts/git/check_commit_message.rb {1}

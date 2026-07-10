@@ -117,6 +117,8 @@ Contributions should improve understanding.
 
 A useful contribution may add a resource, remove a weak resource, clarify a domain boundary, improve a learning sequence, explain why a tool matters, or identify a missing primary source. Use [EDITORIAL.md](EDITORIAL.md) as the authority for contribution quality.
 
+Maintainers and contributors should also follow the [commit convention](docs/git/COMMIT-CONVENTION.md) and [versioning and release policy](docs/git/VERSIONING.md). Local Git hooks are configured through Lefthook.
+
 ## License
 
 Materials Atlas is licensed under the Creative Commons Attribution 4.0 International License (CC BY 4.0).
