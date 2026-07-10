@@ -361,9 +361,9 @@ without referring to equations.
 
 - Module 04 — Statistical Mechanics
 - Module 05 — Crystallography
-- Module 08 — Density Functional Theory
-- Module 10 — CALPHAD
-- Module 11 — Phase-Field Modeling
+- Module 07 — Density Functional Theory
+- Module 09 — CALPHAD
+- Module 10 — Phase-Field Methods
 
 ---
 
