@@ -59,8 +59,6 @@ People do not usually begin with a resource type. They begin with a domain, a pr
 
 For that reason, domains are the primary organizing principle. Resources are secondary indexes. The editorial rules for future pages live in [EDITORIAL.md](EDITORIAL.md).
 
-## Navigation
-
 ## Start Here
 
 New readers should begin with:
@@ -139,4 +137,4 @@ A Zenodo DOI will be added after the first stable public release.
 
 ## Release
 
-The first public release is documented in [CHANGELOG.md](CHANGELOG.md) and [RELEASE_NOTES_v0.1.md](RELEASE_NOTES_v0.1.md).
+Release history is documented in [CHANGELOG.md](CHANGELOG.md). Published release notes are available through [GitHub Releases](https://github.com/akin-oz/materials-atlas/releases).

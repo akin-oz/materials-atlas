@@ -15,7 +15,7 @@ Use the citation metadata in [CITATION.cff](CITATION.cff) whenever possible. Git
 Until the first stable release receives a DOI, cite the GitHub repository:
 
 ```text
-Oztorun, A. (2026). Materials Atlas (Version 0.1.0) [Open knowledge repository]. GitHub. https://github.com/akin-oz/materials-atlas
+Oztorun, A. (2026). Materials Atlas (Version 0.2.0) [Open knowledge repository]. GitHub. https://github.com/akin-oz/materials-atlas
 ```
 
 ---
@@ -26,7 +26,7 @@ Oztorun, A. (2026). Materials Atlas (Version 0.1.0) [Open knowledge repository].
 @misc{materials_atlas,
   author       = {Akin Oztorun},
   title        = {Materials Atlas},
-  version      = {0.1.0},
+  version      = {0.2.0},
   year         = {2026},
   howpublished = {GitHub repository},
   url          = {https://github.com/akin-oz/materials-atlas},

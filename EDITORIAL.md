@@ -105,6 +105,8 @@ Reject long lists when one canonical resource gives a clearer route.
 
 New structure requires exceptional justification. Most future work should add or improve content inside the existing architecture.
 
+For domain-specific lifecycle, readiness, and cross-reference rules, see [domains/README.md](domains/README.md).
+
 ## Maintenance Standard
 
 When editing a page, check whether the change improves:
