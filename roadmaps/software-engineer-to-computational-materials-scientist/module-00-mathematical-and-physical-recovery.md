@@ -1,37 +1,55 @@
-# Module 00 — Scientific Recovery
+# Module 00 — Mathematical & Physical Recovery
 
-> Recover the scientific intuition required for modern Computational Materials Science.
+> Rebuild the scientific intuition required for modern Computational Materials Science.
 
 ---
 
 # Purpose
 
-This module rebuilds the minimum mathematical, physical, and materials science intuition required for the rest of the curriculum.
+This module rebuilds the mathematical, physical, and materials science intuition required for the rest of the curriculum.
 
 It is intentionally selective.
 
-The goal is not to repeat an undergraduate degree.
+The objective is not to repeat an undergraduate degree.
 
-The goal is to remove future learning bottlenecks.
+The objective is to remove future learning bottlenecks.
 
-Everything in this module should immediately become useful in later modules.
+Every concept introduced here should immediately become useful in later modules.
 
 ---
 
-# Why now?
+# Why This Module Exists
 
-Most computational materials topics assume scientific intuition that experienced software engineers often no longer retain.
+Most Computational Materials Science resources assume knowledge that experienced software engineers often no longer retain.
 
-For example:
+Examples include:
 
-- free energy
-- equilibrium
 - crystal structures
+- thermodynamic equilibrium
+- Gibbs free energy
 - diffusion
+- vectors and matrices
+- derivatives and gradients
 - probability distributions
-- vectors and tensors
 
-Without recovering these ideas first, later topics such as Density Functional Theory, Molecular Dynamics, or CALPHAD become collections of equations instead of understandable models.
+Without rebuilding these concepts first, later topics such as Density Functional Theory, Molecular Dynamics, CALPHAD, and Materials Informatics become collections of equations instead of understandable models.
+
+This module restores the scientific intuition needed to understand—not memorize—the rest of the curriculum.
+
+---
+
+# Learning Philosophy
+
+This module follows four principles.
+
+- Recover intuition before mathematical rigor.
+- Learn only what unlocks future modules.
+- Build while learning.
+- Produce one durable artifact every study session.
+
+See:
+
+- `STUDY-METHOD.md`
 
 ---
 
@@ -39,35 +57,63 @@ Without recovering these ideas first, later topics such as Density Functional Th
 
 None.
 
-Programming experience is assumed.
+The curriculum assumes:
+
+- professional software engineering experience
+- basic Python familiarity
+- willingness to write code while learning
+
+---
+
+# Capability Map
+
+| Capability | Primary Resource | Artifact | Mastery Gate |
+|------------|------------------|-----------|--------------|
+| Scientific Thinking | Callister Ch.1 | Markdown note | Explain scientific models |
+| Linear Algebra Intuition | 3Blue1Brown | NumPy notebook | Implement vector operations |
+| Calculus Intuition | 3Blue1Brown | Visualization notebook | Explain gradients conceptually |
+| Atomic Bonding | Callister Ch.2 | Notebook | Explain bonding mechanisms |
+| Crystal Structures | Callister Ch.3 | Python visualization | Generate FCC/BCC/HCP structures |
 
 ---
 
 # Learning Outcomes
 
-After completing this module, you should be able to:
+After completing this module you should be able to:
 
-- explain why different materials behave differently at the atomic level
-- interpret basic thermodynamic quantities without memorizing equations
-- reason about crystal structures and defects
-- explain the difference between microscopic and macroscopic descriptions
-- manipulate vectors, matrices, and coordinate systems comfortably
-- understand derivatives, integrals, gradients, and differential equations conceptually
+- explain why different materials exhibit different properties
+- describe metallic, ionic, covalent, and secondary bonding
+- reason about crystal structures
+- interpret Gibbs free energy conceptually
+- understand equilibrium without relying on equations
+- manipulate vectors and matrices comfortably
+- understand derivatives and gradients conceptually
 - read introductory computational materials literature without feeling lost
 
 ---
 
 # Scope
 
-This module intentionally excludes:
+Included:
 
-- advanced quantum mechanics
-- tensor calculus
+- scientific thinking
+- basic materials science
+- linear algebra intuition
+- calculus intuition
+- atomic bonding
+- crystal structures
+- equilibrium intuition
+
+Explicitly excluded:
+
+- quantum mechanics
 - advanced statistical mechanics
 - continuum mechanics
-- solid-state physics in depth
+- tensor calculus
+- Density Functional Theory
+- Molecular Dynamics
 
-Those topics appear later when they become necessary.
+These topics appear later when they become necessary.
 
 ---
 
@@ -76,26 +122,51 @@ Those topics appear later when they become necessary.
 ## Primary Book
 
 William D. Callister Jr.
+
 *Materials Science and Engineering: An Introduction*
 
-Read only the chapters needed to rebuild intuition.
+### Read
 
-Avoid trying to finish the entire book.
+- Chapter 1
+- Chapter 2
+- Chapter 3
+
+### Skip For Now
+
+- Mechanical Properties
+- Failure
+- Ceramics
+- Polymers
+- Composites
+- Corrosion
+
+These topics return in later modules.
 
 ---
 
 ## Mathematics
 
-3Blue1Brown
+### 3Blue1Brown — Essence of Linear Algebra
 
-- Essence of Linear Algebra
-- Essence of Calculus
+Required:
 
-Goal:
+- Chapters 1–4
+- Chapter 6
+- Chapter 7
+- Chapter 9
+- Chapters 14–15
 
-Recover intuition.
+Optional:
 
-Do not become a mathematician.
+- Remaining chapters
+
+---
+
+### 3Blue1Brown — Essence of Calculus
+
+Watch the complete series.
+
+Focus on intuition rather than symbolic manipulation.
 
 ---
 
@@ -103,46 +174,151 @@ Do not become a mathematician.
 
 MIT OpenCourseWare
 
-Introduction to Solid State Chemistry (3.091)
+### 3.091 — Introduction to Solid State Chemistry
 
-Watch selected lectures only.
+Watch only the lectures directly supporting:
 
-Focus on concepts rather than derivations.
+- atomic structure
+- bonding
+- crystal structures
+
+Ignore mathematical derivations.
+
+---
+
+# Four-Week Study Plan
+
+## Week 1
+
+### Read
+
+- Callister Chapter 1
+
+### Watch
+
+- 3Blue1Brown Linear Algebra (Chapters 1–4)
+
+### Build
+
+Notebook:
+
+`01-linear-algebra.ipynb`
+
+Topics:
+
+- vectors
+- matrices
+- transformations
+
+---
+
+## Week 2
+
+### Read
+
+- Callister Chapter 2
+
+### Watch
+
+- Remaining required Linear Algebra videos
+- Beginning of Essence of Calculus
+
+### MIT
+
+Selected bonding lectures
+
+### Build
+
+Notebook:
+
+`02-atomic-bonding.ipynb`
+
+---
+
+## Week 3
+
+### Read
+
+- Callister Chapter 3
+
+### Watch
+
+Complete Essence of Calculus
+
+### Build
+
+Notebook:
+
+`03-crystal-structures.ipynb`
+
+Implement:
+
+- FCC
+- BCC
+- HCP
+
+using Python.
+
+---
+
+## Week 4
+
+Review.
+
+Refactor notebooks.
+
+Finish summaries.
+
+Complete the mini project.
+
+Perform an oral review with ChatGPT.
 
 ---
 
 # Practical Work
 
-## Notebook 1
+## Notebook 01
 
-Atomic Structure Refresher
-
-Create visual explanations for:
-
-- atoms
-- bonding
-- crystal structures
-
-Use Python and matplotlib where appropriate.
-
----
-
-## Notebook 2
-
-Linear Algebra Playground
+Linear Algebra Intuition
 
 Implement:
 
 - vectors
-- dot products
+- dot product
 - matrix multiplication
 - coordinate transformations
+
+---
+
+## Notebook 02
+
+Atomic Bonding
+
+Visualize:
+
+- ionic
+- covalent
+- metallic
+
+bonding.
+
+---
+
+## Notebook 03
+
+Crystal Structures
+
+Generate:
+
+- FCC
+- BCC
+- HCP
 
 using NumPy.
 
 ---
 
-## Notebook 3
+## Notebook 04
 
 Thermodynamic Intuition
 
@@ -150,36 +326,53 @@ Visualize:
 
 - entropy
 - Gibbs free energy
-- phase diagrams
+- equilibrium
 
-using simple Python plots.
-
----
-
-## Notebook 4
-
-Crystal Structures
-
-Generate simple:
-
-- FCC
-- BCC
-- HCP
-
-unit cells programmatically.
+using simple plots.
 
 ---
 
-# Reading Exercises
+# Reading Workflow
 
-After every chapter:
+For every chapter:
 
-Write a one-page summary answering:
+Do **not** summarize everything.
 
-- What did I already know?
-- What surprised me?
-- Why does this matter for computational materials?
-- Where will this appear later in the curriculum?
+Answer only:
+
+## Big Idea
+
+What is the central idea?
+
+---
+
+## Why It Matters
+
+Why does this concept exist?
+
+---
+
+## Computational View
+
+How would software represent it?
+
+---
+
+## Related Modules
+
+Where will this appear again?
+
+---
+
+## Artifact
+
+Which notebook or visualization supports it?
+
+---
+
+## Open Questions
+
+What remains unclear?
 
 ---
 
@@ -187,65 +380,140 @@ Write a one-page summary answering:
 
 Create:
 
-"Scientific Recovery Notebook"
+**Scientific Recovery Notebook**
 
-A single Jupyter notebook that explains, with code and figures:
+A single Jupyter notebook explaining:
 
 - atomic bonding
 - crystal structures
-- thermodynamic intuition
-- vector operations
+- vectors
+- Gibbs free energy
 
-Imagine explaining these concepts to another software engineer entering the field.
+using figures, code, and plain language.
+
+Assume the audience is another experienced software engineer entering Computational Materials Science.
+
+---
+
+# Mastery Gates
+
+## Scientific Thinking
+
+Can you explain:
+
+- model
+- approximation
+- measurement
+
+without referring to equations?
+
+---
+
+## Linear Algebra
+
+Can you:
+
+- explain vectors geometrically?
+- explain basis?
+- explain matrix transformations?
+- implement them using NumPy?
+
+---
+
+## Atomic Bonding
+
+Can you explain:
+
+- metallic bonding?
+- ionic bonding?
+- covalent bonding?
+
+Can you relate bonding to material properties?
+
+---
+
+## Crystal Structures
+
+Can you:
+
+- distinguish FCC, BCC, and HCP?
+- explain unit cell vs. lattice?
+- generate simple structures in Python?
+
+---
+
+## Thermodynamics
+
+Can you explain:
+
+- Gibbs free energy?
+- equilibrium?
+- entropy?
+
+without using memorized formulas?
 
 ---
 
 # Exit Criteria
 
-Move to Module 01 only if you can confidently:
+Proceed to Module 01 only if you can:
 
-✓ Explain the relationship between atomic structure and material properties.
-
-✓ Explain Gibbs free energy conceptually.
-
-✓ Identify FCC, BCC, and HCP crystal structures.
-
-✓ Perform basic NumPy linear algebra without documentation.
-
-✓ Explain why statistical mechanics is needed before molecular simulation.
-
-✓ Read an introductory materials science paper without feeling overwhelmed.
-
----
-
-# Estimated Duration
-
-3–5 weeks
-
-assuming
-
-10–15 focused hours per week.
-
-Do not optimize for speed.
-
-Optimize for understanding.
+- explain the relationship between atomic structure and material properties
+- explain Gibbs free energy conceptually
+- distinguish FCC, BCC, and HCP
+- perform basic NumPy linear algebra comfortably
+- explain why statistical mechanics is needed before Molecular Dynamics
+- read introductory computational materials literature without feeling overwhelmed
 
 ---
 
 # Common Mistakes
 
-Do not try to memorize formulas.
+Do not:
 
-Do not solve hundreds of textbook exercises.
+- memorize equations
+- solve hundreds of textbook exercises
+- read entire textbooks sequentially
+- optimize for speed
+- chase mathematical rigor before intuition
 
-Do not read entire textbooks sequentially.
+Optimize for understanding.
 
-Do not chase mathematical rigor before intuition.
+---
 
-The purpose of this module is to recover scientific thinking, not undergraduate exam performance.
+# Relationships
+
+## Supports Roadmap
+
+- Module 01 — Foundations of Materials Science
+- Module 03 — Thermodynamics
+- Module 05 — Crystallography
+- Module 06 — Electronic Structure
+
+## Related Domains
+
+- Foundations of Materials Science
+- Crystallography
+- Scientific Computing
+
+## Primary Resources
+
+- Callister
+- 3Blue1Brown
+- MIT 3.091
+
+---
+
+# Estimated Duration
+
+Approximately **4 weeks**
+
+assuming **10–15 focused hours per week**.
+
+Advance based on mastery, not time.
 
 ---
 
 # Continue With
 
-Module 01 — Foundations of Materials Science
+**Module 01 — Foundations of Materials Science**
