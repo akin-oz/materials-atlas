@@ -1,10 +1,20 @@
 pre-commit:
   commands:
+    python-format:
+      run: uv run --group dev ruff format --check scripts tests
+    python-lint:
+      run: uv run --group dev ruff check scripts tests
+    python-types:
+      run: uv run --group dev pyright
+    tooling-tests:
+      run: uv run --group dev pytest
     documentation:
       glob: "*.md"
-      run: ruby scripts/git/check_docs.rb {staged_files}
+      run: uv run --group dev python scripts/check_docs.py {staged_files}
+    repository-status:
+      run: uv run --group dev python scripts/generate_status.py --check
 
 commit-msg:
   commands:
     convention:
-      run: ruby scripts/git/check_commit_message.rb {1}
+      run: uv run --group dev python scripts/check_commit_message.py {1}

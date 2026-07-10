@@ -1,0 +1,32 @@
+name: Validate repository
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  documentation:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - uses: astral-sh/setup-uv@v5
+      - name: Install tooling
+        run: uv sync --locked --group dev
+      - name: Check Python formatting
+        run: uv run --group dev ruff format --check scripts tests
+      - name: Lint Python tooling
+        run: uv run --group dev ruff check scripts tests
+      - name: Type-check Python tooling
+        run: uv run --group dev pyright
+      - name: Test Python tooling
+        run: uv run --group dev pytest --cov=scripts --cov-report=term-missing --cov-report=xml
+      - name: Validate Markdown and Mermaid structure
+        run: uv run --group dev python scripts/check_docs.py --all
+      - name: Verify generated repository status
+        run: uv run --group dev python scripts/generate_status.py --check

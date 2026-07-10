@@ -67,6 +67,14 @@ Choose `governance` for maintainer policy, `tooling` for developer tooling, and 
 - Do not mix release metadata with unrelated content.
 - Preserve a release boundary as its own commit so annotated tags point to a meaningful state.
 
+## Anti-Patterns
+
+- Do not use generic categories such as `chore`, `feat`, or `fix`; choose the Atlas layer that owns the change.
+- Do not use a release commit to hide unrelated editorial work.
+- Do not commit generated report changes without the source change that caused them.
+- Do not create formatting-only commits unless they are necessary and clearly documented for blame history.
+- Do not rewrite published history after contributors or citations depend on it.
+
 ## References
 
 Include a body when a commit needs to record a decision, source constraint, or migration detail. Reference an issue, paper, or external source only when it helps a future maintainer understand the change.
@@ -83,4 +91,6 @@ Install Lefthook once in each clone:
 lefthook install
 ```
 
-The `pre-commit` hook checks staged Markdown files for trailing whitespace, broken local links, and repository filename conventions. Hooks are intentionally fast and do not require network access.
+The `pre-commit` hook checks Python formatting, linting, types, tooling tests, staged Markdown files, and the generated status report. Hooks are intentionally fast and do not require network access after `uv sync --group dev`.
+
+The repository does not currently contain a `.git-blame-ignore-revs` file because it has no formatting-only commit to ignore. Add one only alongside a documented formatting-only change.
