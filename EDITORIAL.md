@@ -1,8 +1,10 @@
 # Editorial Guide
 
-This document is the editorial constitution of Materials Atlas.
+This document is the editorial standard of Materials Atlas.
 
 It defines how future pages should be written, evaluated, maintained, and deleted.
+
+For durable repository principles, see [CONSTITUTION.md](CONSTITUTION.md). For layer ownership, see [ARCHITECTURE.md](ARCHITECTURE.md).
 
 ## Mission
 
