@@ -18,6 +18,11 @@ The project is currently in its pre-1.0 phase. During this period:
 
 The current release is `v0.2.0`.
 
+| Version | Milestone |
+|---------|-----------|
+| `v0.1.0` | Foundation |
+| `v0.2.0` | Knowledge Architecture |
+
 ## Release Naming
 
 Each milestone receives a short descriptive title:

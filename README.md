@@ -71,12 +71,17 @@ New readers should begin with:
 ## Repository Map
 
 - [EDITORIAL.md](EDITORIAL.md) defines the editorial standard for all future pages.
+- [CONSTITUTION.md](CONSTITUTION.md) defines durable repository principles.
+- [ARCHITECTURE.md](ARCHITECTURE.md) explains repository layers and knowledge flow.
+- [SCIENTIFIC_SCOPE.md](SCIENTIFIC_SCOPE.md) defines scientific inclusion boundaries.
+- [docs/repository/TOOLING.md](docs/repository/TOOLING.md) defines the repository tooling standard.
 - [ROADMAP.md](ROADMAP.md) defines the high-level learning progression.
 - [roadmaps/software-engineer-to-computational-materials-scientist/](roadmaps/software-engineer-to-computational-materials-scientist/) contains the detailed curriculum and study method.
 - [references/](references/) contains canonical reference pages and reusable diagram collections.
 - [domains/](domains/) defines how future domain pages will organize knowledge.
 - [resources/](resources/) defines how secondary resource indexes should work.
 - [ecosystem/](ecosystem/) defines how people and institutions should be mapped.
+- [reports/STATUS.md](reports/STATUS.md) is the generated repository status view.
 
 The first curated indexes now exist where they have enough signal to be useful:
 
@@ -117,7 +122,7 @@ Contributions should improve understanding.
 
 A useful contribution may add a resource, remove a weak resource, clarify a domain boundary, improve a learning sequence, explain why a tool matters, or identify a missing primary source. Use [EDITORIAL.md](EDITORIAL.md) as the authority for contribution quality.
 
-Maintainers and contributors should also follow the [commit convention](docs/git/COMMIT-CONVENTION.md) and [versioning and release policy](docs/git/VERSIONING.md). Local Git hooks are configured through Lefthook.
+See [CONTRIBUTING.md](CONTRIBUTING.md) for contribution flow. Maintainers and contributors should also follow the [commit convention](docs/git/COMMIT-CONVENTION.md) and [versioning and release policy](docs/git/VERSIONING.md). Local Git hooks are configured through Lefthook.
 
 ## License
 
