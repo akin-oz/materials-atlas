@@ -85,7 +85,13 @@ def planned_domains() -> list[str]:
 
 
 def git_tags() -> list[str]:
-    """Return version tags in semantic order."""
+    """Return prior version tags in semantic order.
+
+    A release commit is tagged only after its generated report is committed.
+    Excluding tags that point at HEAD keeps that report deterministic at the
+    release boundary; the tag appears as a historical milestone after the next
+    commit.
+    """
 
     result = subprocess.run(
         ["git", "tag", "--list", "v*", "--sort=v:refname"],
@@ -94,7 +100,26 @@ def git_tags() -> list[str]:
         capture_output=True,
         text=True,
     )
-    return [tag for tag in result.stdout.splitlines() if tag]
+    head = subprocess.run(
+        ["git", "rev-parse", "HEAD"],
+        cwd=ROOT,
+        check=True,
+        capture_output=True,
+        text=True,
+    ).stdout.strip()
+    return [tag for tag in result.stdout.splitlines() if tag_commit(tag) != head]
+
+
+def tag_commit(tag: str) -> str:
+    """Return the commit targeted by an annotated or lightweight tag."""
+
+    return subprocess.run(
+        ["git", "rev-list", "-n", "1", tag],
+        cwd=ROOT,
+        check=True,
+        capture_output=True,
+        text=True,
+    ).stdout.strip()
 
 
 def tag_type(tag: str) -> str:
@@ -152,6 +177,7 @@ def render() -> str:
     release_titles = {
         "v0.1.0": "Foundation",
         "v0.2.0": "Knowledge Architecture",
+        "v0.3.0": "Repository Engineering",
     }
     architecture_layers = {
         "roadmaps": ROOT / "roadmaps",

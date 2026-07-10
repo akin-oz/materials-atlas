@@ -7,7 +7,7 @@
 
 | Metric | Value |
 |--------|-------|
-| Markdown documents | 57 |
+| Markdown documents | 58 |
 | Curriculum modules | 16 |
 | Canonical reference pages | 9 |
 | Resource indexes | 4 |

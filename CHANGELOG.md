@@ -4,6 +4,21 @@ All notable changes to Materials Atlas are documented in this file.
 
 The project follows a curated-documentation model: releases record meaningful improvements to structure, navigation, editorial standards, and canonical content rather than every wording change.
 
+## [0.3.0] — Repository Engineering
+
+### Added
+
+- Established Python as the canonical language for repository tooling.
+- Added deterministic documentation validation, curriculum sequence checks, and generated repository status reporting.
+- Added Ruff, Pyright, pytest, coverage reporting, Lefthook, and GitHub Actions quality gates.
+- Defined repository governance, scientific scope, architecture ownership, contribution flow, and tooling standards.
+
+### Changed
+
+- Replaced Ruby hook scripts with tested Python tooling.
+- Refined the commit taxonomy to distinguish governance, tooling, automation, and reader-facing documentation.
+- Made generated repository health views reproducible and validated them in local hooks and CI.
+
 ## [0.2.0] — Knowledge Architecture
 
 ### Changed
