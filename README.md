@@ -107,3 +107,21 @@ The `resources/` directory exists for secondary indexes only. It should help rea
 Contributions should improve understanding.
 
 A useful contribution may add a resource, remove a weak resource, clarify a domain boundary, improve a learning sequence, explain why a tool matters, or identify a missing primary source. Use [EDITORIAL.md](EDITORIAL.md) as the authority for contribution quality.
+
+## License
+
+Materials Atlas is licensed under the Creative Commons Attribution 4.0 International License (CC BY 4.0).
+
+You may reuse, adapt, and redistribute the original repository content with appropriate attribution.
+
+External resources curated by Materials Atlas remain governed by their own licenses and copyright terms.
+
+See [LICENSE](LICENSE) and [COPYRIGHT.md](COPYRIGHT.md).
+
+## Citation
+
+If Materials Atlas helps your research, teaching, learning, or software work, please cite it.
+
+GitHub-compatible citation metadata is provided in [CITATION.cff](CITATION.cff). A human-readable citation guide is available in [CITING.md](CITING.md).
+
+A Zenodo DOI will be added after the first stable public release.

@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+title: "Materials Atlas"
+message: "If Materials Atlas helps your research, teaching, or learning, please cite it."
+type: dataset
+authors:
+  - family-names: "Oztorun"
+    given-names: "Akin"
+repository-code: "https://github.com/akin-oz/materials-atlas"
+url: "https://github.com/akin-oz/materials-atlas"
+abstract: >-
+  Materials Atlas is an open knowledge repository for Computational Materials
+  Science. It combines learning roadmaps, domain maps, canonical references,
+  curated resources, reusable diagrams, scientific workflows, research
+  infrastructure, and editorial standards for software engineers transitioning
+  into Computational Materials Science.
+license: "CC-BY-4.0"
+keywords:
+  - computational materials science
+  - materials informatics
+  - scientific software engineering
+  - AI for materials
+  - density functional theory
+  - molecular dynamics
+  - CALPHAD
+  - phase-field methods
+  - open knowledge
+  - learning roadmap
+# Future Zenodo integration:
+# doi: "10.5281/zenodo.TBD"
+
