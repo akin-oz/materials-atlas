@@ -4,6 +4,20 @@ All notable changes to Materials Atlas are documented in this file.
 
 The project follows a curated-documentation model: releases record meaningful improvements to structure, navigation, editorial standards, and canonical content rather than every wording change.
 
+## [0.4.0] — Interactive Foundations
+
+### Added
+
+- Established `notebooks/` as the official interactive learning layer, with reproducible execution and quality standards.
+- Added the first four foundation notebooks: Python Environment and Jupyter Workflow, Linear Algebra, Atomic Bonding, and Crystal Structures.
+- Added declared JupyterLab, NumPy, and Matplotlib dependencies for the notebook environment.
+- Added notebook progression, naming, execution, and Markdown-integration guidance.
+
+### Changed
+
+- Extended the repository architecture so notebooks complement the canonical Markdown roadmaps and references.
+- Added notebook-aware repository status reporting and ignored local Jupyter checkpoint files.
+
 ## [0.3.0] — Repository Engineering
 
 ### Added

@@ -13,6 +13,7 @@ This document explains the system. It does not set editorial quality rules; see 
 | Layer | Responsibility |
 |-------|----------------|
 | `roadmaps/` | Teaches sequence and capability through learning modules. |
+| `notebooks/` | Provides executable, visual exploration that practices curriculum concepts. |
 | `references/` | Defines canonical explanations, terminology, and diagram collections. |
 | `resources/` | Curates external books, papers, software, datasets, and videos. |
 | `domains/` | Synthesizes mature evidence around a field-level question. |
@@ -25,6 +26,9 @@ This document explains the system. It does not set editorial quality rules; see 
 ```mermaid
 flowchart LR
     Roadmaps[Roadmaps] --> Capability[Capability]
+    Roadmaps --> Notebooks[Interactive Notebooks]
+    References --> Notebooks
+    Notebooks --> Capability
     References[References] --> Evidence[Canonical Evidence]
     Resources[Resources] --> Evidence
     Ecosystem[Ecosystem] --> Evidence
@@ -38,12 +42,13 @@ flowchart LR
     Ecosystem --> Reports
 ```
 
-Roadmaps answer what to learn next. References answer what a stable concept means. Resources and ecosystem indexes provide curated context. Domains connect those layers when the evidence is mature enough. Projects, once present, turn domain understanding into reproducible work. Reports describe repository state rather than scientific claims.
+Roadmaps answer what to learn next. References answer what a stable concept means. Notebooks provide an interactive practice layer: they complement the Markdown documentation but do not replace it as the canonical reference. Resources and ecosystem indexes provide curated context. Domains connect those layers when the evidence is mature enough. Projects, once present, turn domain understanding into reproducible work. Reports describe repository state rather than scientific claims.
 
 ## Ownership Rules
 
 - A concept is explained once in `references/` when it needs a stable canonical definition.
 - A learning sequence belongs in `roadmaps/`, even when it links to references and resources.
+- An interactive exploration belongs in `notebooks/`; it must link back to the roadmap and preserve its assumptions, code, and interpretation together.
 - An external work is curated in `resources/`; its context may be synthesized in a domain.
 - A person or institution belongs in `ecosystem/` only when it clarifies influence or infrastructure.
 - A domain does not copy entire references or indexes. It explains why their relationship matters.

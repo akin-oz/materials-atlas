@@ -156,6 +156,7 @@ def render() -> str:
         for path in (ROOT / "resources").rglob("README.md")
         if path.parent != ROOT / "resources"
     ]
+    notebooks = sorted((ROOT / "notebooks").rglob("*.ipynb"))
     ecosystem_indexes = [
         path
         for path in (ROOT / "ecosystem").rglob("README.md")
@@ -178,9 +179,11 @@ def render() -> str:
         "v0.1.0": "Foundation",
         "v0.2.0": "Knowledge Architecture",
         "v0.3.0": "Repository Engineering",
+        "v0.4.0": "Interactive Foundations",
     }
     architecture_layers = {
         "roadmaps": ROOT / "roadmaps",
+        "notebooks": ROOT / "notebooks",
         "references": ROOT / "references",
         "resources": ROOT / "resources",
         "domains": ROOT / "domains",
@@ -205,6 +208,7 @@ def render() -> str:
         f"| Canonical reference pages | {len(reference_pages)} |",
         f"| Resource indexes | {len(resource_indexes)} |",
         f"| Ecosystem indexes | {len(ecosystem_indexes)} |",
+        f"| Interactive notebooks | {len(notebooks)} |",
         f"| Published domain pages | {len(published_domains)} |",
         "",
         "## Curriculum Progress",

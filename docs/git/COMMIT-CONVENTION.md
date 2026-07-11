@@ -48,7 +48,7 @@ Use an optional body when the subject alone cannot explain a non-obvious editori
 | `governance` | Maintainer policy, contribution rules, licensing, and repository stewardship | `governance: establish contribution standards` | Tool implementation or release metadata |
 | `tooling` | Developer tooling, scripts, local validation, and maintenance configuration | `tooling: establish Python validation foundation` | CI workflow behavior or generated reports |
 | `automation` | CI workflows, hooks, and deterministic generated repository artifacts | `automation: add deterministic status reporting` | A manually run tool without automated enforcement |
-| `release` | Version, changelog, tag, and release-preparation changes | `release: prepare v0.3.0 research foundations` | Ordinary documentation work |
+| `release` | Version, changelog, tag, and release-preparation changes | `release: prepare v0.4.0 interactive foundations` | Ordinary documentation work |
 | `docs` | Reader-facing repository navigation and explanatory documentation without another owner | `docs: clarify repository navigation` | Governance, tooling, or a content layer |
 
 Choose the narrowest category that explains the change.

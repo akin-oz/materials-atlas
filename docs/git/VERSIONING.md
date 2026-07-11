@@ -16,20 +16,21 @@ The project is currently in its pre-1.0 phase. During this period:
 - `v0.MINOR.PATCH` corrects or refines an existing milestone without changing its intended scope.
 - `v1.0.0` should be reserved for a stable public contract: readers and contributors can rely on the repository's core structure, naming, and release expectations.
 
-The current release is `v0.3.0`.
+The current release is `v0.4.0`.
 
 | Version | Milestone |
 |---------|-----------|
 | `v0.1.0` | Foundation |
 | `v0.2.0` | Knowledge Architecture |
 | `v0.3.0` | Repository Engineering |
+| `v0.4.0` | Interactive Foundations |
 
 ## Release Naming
 
 Each milestone receives a short descriptive title:
 
 ```text
-v0.3.0 — Repository Engineering
+v0.4.0 — Interactive Foundations
 ```
 
 The title should describe the durable theme of the release, not market it.

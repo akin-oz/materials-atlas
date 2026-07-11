@@ -7,11 +7,12 @@
 
 | Metric | Value |
 |--------|-------|
-| Markdown documents | 58 |
+| Markdown documents | 60 |
 | Curriculum modules | 16 |
 | Canonical reference pages | 9 |
 | Resource indexes | 4 |
 | Ecosystem indexes | 2 |
+| Interactive notebooks | 5 |
 | Published domain pages | 0 |
 
 ## Curriculum Progress
@@ -47,6 +48,7 @@ The curriculum module table above is generated from the canonical roadmap direct
 |-----|-------|----------|
 | v0.1.0 | Foundation | tag |
 | v0.2.0 | Knowledge Architecture | tag |
+| v0.3.0 | Repository Engineering | tag |
 
 ## Reference Statistics
 

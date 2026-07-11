@@ -66,7 +66,8 @@ New readers should begin with:
 1. [ROADMAP.md](ROADMAP.md) for the field-level learning progression.
 2. [Software Engineer → Computational Materials Scientist](roadmaps/software-engineer-to-computational-materials-scientist/README.md) for the detailed, competency-based curriculum.
 3. [STUDY-METHOD.md](roadmaps/software-engineer-to-computational-materials-scientist/STUDY-METHOD.md) for the learning workflow used by that curriculum.
-4. [references/](references/README.md) for canonical concepts, diagrams, and reference material.
+4. [notebooks/](notebooks/README.md) to explore the foundations interactively after reading the relevant concepts.
+5. [references/](references/README.md) for canonical concepts, diagrams, and reference material.
 
 ## Repository Map
 
@@ -77,6 +78,7 @@ New readers should begin with:
 - [docs/repository/TOOLING.md](docs/repository/TOOLING.md) defines the repository tooling standard.
 - [ROADMAP.md](ROADMAP.md) defines the high-level learning progression.
 - [roadmaps/software-engineer-to-computational-materials-scientist/](roadmaps/software-engineer-to-computational-materials-scientist/) contains the detailed curriculum and study method.
+- [notebooks/](notebooks/README.md) contains the interactive Jupyter learning layer for the curriculum.
 - [references/](references/) contains canonical reference pages and reusable diagram collections.
 - [domains/](domains/) defines how future domain pages will organize knowledge.
 - [resources/](resources/) defines how secondary resource indexes should work.

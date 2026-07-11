@@ -3,6 +3,11 @@ name = "materials-atlas-tooling"
 version = "0.0.0"
 description = "Repository tooling for Materials Atlas."
 requires-python = ">=3.11"
+dependencies = [
+    "jupyterlab>=4.0",
+    "matplotlib>=3.11.0",
+    "numpy>=2.4.6",
+]
 
 [dependency-groups]
 dev = [
