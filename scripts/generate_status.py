@@ -104,7 +104,11 @@ def render() -> str:
         for path in (ROOT / "resources").rglob("README.md")
         if path.parent != ROOT / "resources"
     ]
-    notebooks = sorted((ROOT / "notebooks").rglob("*.ipynb"))
+    notebooks = sorted(
+        path
+        for path in (ROOT / "notebooks").rglob("*.ipynb")
+        if not any(part.startswith(".") for part in path.relative_to(ROOT).parts)
+    )
     ecosystem_indexes = [
         path
         for path in (ROOT / "ecosystem").rglob("README.md")

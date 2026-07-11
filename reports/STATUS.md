@@ -12,7 +12,7 @@
 | Canonical reference pages | 9 |
 | Resource indexes | 4 |
 | Ecosystem indexes | 2 |
-| Interactive notebooks | 5 |
+| Interactive notebooks | 4 |
 | Published domain pages | 0 |
 
 ## Curriculum Progress
