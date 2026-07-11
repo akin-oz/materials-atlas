@@ -11,7 +11,7 @@ Usage:
 
 Inputs:
     Repository Markdown files, canonical diagram headings, domain candidates,
-    and local Git tags.
+    and the documented release milestone map.
 
 Output:
     Writes reports/STATUS.md, or reports whether that generated file is stale
@@ -22,7 +22,6 @@ from __future__ import annotations
 
 import argparse
 import re
-import subprocess
 from collections.abc import Sized
 from pathlib import Path
 
@@ -84,57 +83,6 @@ def planned_domains() -> list[str]:
     return planned
 
 
-def git_tags() -> list[str]:
-    """Return prior version tags in semantic order.
-
-    A release commit is tagged only after its generated report is committed.
-    Excluding tags that point at HEAD keeps that report deterministic at the
-    release boundary; the tag appears as a historical milestone after the next
-    commit.
-    """
-
-    result = subprocess.run(
-        ["git", "tag", "--list", "v*", "--sort=v:refname"],
-        cwd=ROOT,
-        check=True,
-        capture_output=True,
-        text=True,
-    )
-    head = subprocess.run(
-        ["git", "rev-parse", "HEAD"],
-        cwd=ROOT,
-        check=True,
-        capture_output=True,
-        text=True,
-    ).stdout.strip()
-    return [tag for tag in result.stdout.splitlines() if tag_commit(tag) != head]
-
-
-def tag_commit(tag: str) -> str:
-    """Return the commit targeted by an annotated or lightweight tag."""
-
-    return subprocess.run(
-        ["git", "rev-list", "-n", "1", tag],
-        cwd=ROOT,
-        check=True,
-        capture_output=True,
-        text=True,
-    ).stdout.strip()
-
-
-def tag_type(tag: str) -> str:
-    """Return the Git object type for a tag."""
-
-    result = subprocess.run(
-        ["git", "cat-file", "-t", tag],
-        cwd=ROOT,
-        check=True,
-        capture_output=True,
-        text=True,
-    )
-    return result.stdout.strip()
-
-
 def check_result(issues: Sized) -> str:
     """Render a compact health result for a collection of validation issues."""
 
@@ -174,7 +122,6 @@ def render() -> str:
     owners = canonical_diagram_ids()
     diagram_count = sum(len(paths) for paths in owners.values())
     duplicate_ids = {diagram_id: paths for diagram_id, paths in owners.items() if len(paths) > 1}
-    tags = git_tags()
     release_titles = {
         "v0.1.0": "Foundation",
         "v0.2.0": "Knowledge Architecture",
@@ -238,14 +185,12 @@ def render() -> str:
             "",
             "## Milestone Progress",
             "",
-            "| Tag | Title | Tag Type |",
-            "|-----|-------|----------|",
+            "| Tag | Title | Release Type |",
+            "|-----|-------|--------------|",
         ]
     )
-    for tag in tags:
-        lines.append(
-            f"| {tag} | {release_titles.get(tag, 'Unmapped milestone')} | {tag_type(tag)} |"
-        )
+    for tag, release_title in release_titles.items():
+        lines.append(f"| {tag} | {release_title} | annotated tag |")
 
     lines.extend(
         [

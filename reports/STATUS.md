@@ -44,11 +44,12 @@ The curriculum module table above is generated from the canonical roadmap direct
 
 ## Milestone Progress
 
-| Tag | Title | Tag Type |
-|-----|-------|----------|
-| v0.1.0 | Foundation | tag |
-| v0.2.0 | Knowledge Architecture | tag |
-| v0.3.0 | Repository Engineering | tag |
+| Tag | Title | Release Type |
+|-----|-------|--------------|
+| v0.1.0 | Foundation | annotated tag |
+| v0.2.0 | Knowledge Architecture | annotated tag |
+| v0.3.0 | Repository Engineering | annotated tag |
+| v0.4.0 | Interactive Foundations | annotated tag |
 
 ## Reference Statistics
 

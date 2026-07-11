@@ -23,3 +23,9 @@ def test_status_report_contains_its_required_sections() -> None:
 
 def test_status_report_is_deterministic() -> None:
     assert generate_status.render() == generate_status.render()
+
+
+def test_status_report_includes_documented_release_milestones() -> None:
+    report = generate_status.render()
+
+    assert "| v0.4.0 | Interactive Foundations | annotated tag |" in report
